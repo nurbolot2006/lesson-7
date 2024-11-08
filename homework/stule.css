@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1444px;
+    margin: 50px auto;
+    background-color: rgb(230, 240, 255);
+}
+
+
+img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#btns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+    height: 45px;
+    align-items: center;
+
+button {
+    width: 110px;
+    height: 40px;
+    background-color: rgb(7, 164, 7);
+    border-radius: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: rgb(25, 209, 8);
+    border-radius: 6px;
+    width: 114px;
+    height: 44px;
+    font-size: 22px;
+}
+}
+
+
+.coffee {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+    .card {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 14px;
+        -webkit-box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.6);
+        box-shadow: 3px 5px 15px 0px rgba(0,0,0,0.6);
+    }
+}
